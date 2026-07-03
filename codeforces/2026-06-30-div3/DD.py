@@ -4,8 +4,10 @@ for _ in range(t):
     a = [int(s) for s in input().split()]
     b = [int(s) for s in input().split()]
     isPossible = True
+    diffSum = 0
     for i in range(n):
-        if a[i] < b[i]:
+        diffSum += a[i] - b[i]
+        if diffSum > 0:
             isPossible = False
             break
     if isPossible:
