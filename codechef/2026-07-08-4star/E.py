@@ -11,7 +11,6 @@ for _ in range(t):
         wait[i] = mx - a[i]
         base += wait[i]
     
-    
     mnch, mx = 0, 1
     for i in range(n):
         curch = - wait[i]
