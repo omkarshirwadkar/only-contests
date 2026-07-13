@@ -19,6 +19,7 @@ def minOperations(s1, s2):
                     ls1[i + 1] = "0"
     return ops
 
+
 if __name__ == "__main__":
     s1 = "101100"
     s2 = "001011"
